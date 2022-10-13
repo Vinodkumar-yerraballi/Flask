@@ -1,0 +1,31 @@
+<html> 
+<head>
+<title>Flask app</title>
+         <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Auto Complete -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/css/autoComplete.min.css">
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+        <img src="../static/guillaume-techer-bvqZCpUAEwU-unsplash.jpg" alt="">
+</head>
+    <body>
+        <h1>this is first Flask coures </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic quisquam, illum magnam fugit quo nobis omnis impedit provident voluptates rem ullam.
+        </p>
+        <p>join our {{content}}</p>
+        {% for i in content1 %}
+        <p>{{i}}</p>
+        {% if i=='ML'%}
+        <p>Free Course for all</p>
+        {% endif %}
+        {% endfor %}
+    </body>
+</html>
