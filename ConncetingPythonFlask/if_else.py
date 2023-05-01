@@ -26,3 +26,8 @@ else:
         print(f'Answer is: {num1 / num2}')
     else:
         print('Input error!') 
+
+string='Vinod'
+print(string[::-1])
+sentence="Hello good morning"
+print(sentence[2:len(sentence)-2])
