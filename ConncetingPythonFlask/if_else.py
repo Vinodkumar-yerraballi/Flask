@@ -31,3 +31,16 @@ string='Vinod'
 print(string[::-1])
 sentence="Hello good morning"
 print(sentence[2:len(sentence)-2])
+
+list_a=['Apple','Banna','Cat','Dog','elephant']
+# for i in list_a:
+print(list_a[2:len(list_a)-2])
+list_b=[1,4,7,9,1,1,3]
+empty_list=[]
+for i in list_b:
+    if i not in empty_list:
+        empty_list.append(i)
+print(empty_list)
+sentence="Welcome to the home"
+print(sentence.split()[::-1])
+print(sentence.translate({190:110}))
