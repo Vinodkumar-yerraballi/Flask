@@ -44,3 +44,21 @@ print(empty_list)
 sentence="Welcome to the home"
 print(sentence.split()[::-1])
 print(sentence.translate({190:110}))
+a="1"
+b="2"
+print(a+b)
+print("Hello" + " "+"World")
+username="Vinod Kumar"
+print("Hello "+ username)
+c="@"*5
+print(c)
+s="Vinod"
+result=("* " * 3)+ s + (" *" *3)
+print(result)
+list_a=[1,2,4,5,6]
+for i in range(1,len(list_a)):
+    for j in range(1,len(list_a)-1):
+        print(list_a[j])
+usernames_length=input()
+length=len(usernames_length)
+print(length)
