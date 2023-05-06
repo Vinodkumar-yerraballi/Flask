@@ -99,3 +99,60 @@ a= input()
 b = input()
 c = input()
 print(a[:1]+b[:1]+c[:1])
+mes='Hi VinodKumar'
+print(mes[3:len(mes)-0])
+#Print the after the first three letters
+print(mes[3:])
+#print the first three letters
+print(mes[:3])
+print(mes[:])
+vari=len(mes)-1
+for i in range(1,5):
+    for j in range(1,5-1):
+           print("*"*j)
+a="5"
+print(int(a))
+print(type(a))
+a=int(a)
+print(type(a))
+a=input()
+a=int(a)
+b=input()
+b=int(b)
+result=a+b
+print("Sum:",str(result))
+a= int(input())
+b = int(input())
+print(a/b)
+length_of_traingle=int(input())
+breath_of_traingle=int(input())
+result=length_of_traingle*breath_of_traingle
+print(result)
+length=int(input())
+breadth=int(input())
+result=2*(length+breadth)
+print(result)
+a=int(input())
+b=int(input())
+print(int(a/b))
+a=float(input())
+b=float(input())
+print(a-b)
+a=int(input())
+print(100-a)
+a=float(input())
+b=float(input())
+result=a+b
+print("Sum:",format(result))
+# Kilometers
+a=float(input())
+b=a*1000
+print(int(b))
+# Percentage
+a=int(input())
+result=(a/100)*200
+print(result)
+# Remainder
+a=int(input())
+b=int(input())
+print(a%b)
