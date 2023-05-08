@@ -156,3 +156,7 @@ print(result)
 a=int(input())
 b=int(input())
 print(a%b)
+
+a=input()
+result=int(a[0])+int(a[1])+int(a[2])
+print(result)
