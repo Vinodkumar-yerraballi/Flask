@@ -12,10 +12,13 @@ class Employee:
     def full_name(self):
         return '{} {}'.format(self.first,self.last)
     def promotions(self):
-        if self.pay < 50000:
+        if self.pay > 50000:
             return "Promoted"
         else:
             return "Not Promoted"
+    @classmethod
+    def class_method(cls,amount):
+        cls.pay=amount
     
 
 
@@ -42,3 +45,5 @@ print(emp_1.amount_rise())
 # Employee.raise_amount=1.5
 # print(emp_1.raise_amount)
 print(emp_2.promotions())
+Employee.class_method
+print(emp_1.class_method(200))
