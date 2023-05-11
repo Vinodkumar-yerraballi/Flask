@@ -43,7 +43,7 @@ print(emp_1.amount_rise())
 # print(Employee.amount_rise)
 # print(emp_1.num_of_employee)
 # Employee.raise_amount=1.5
-# print(emp_1.raise_amount)
+# print(emp_1.raise_amount) 
 print(emp_2.promotions())
 Employee.class_method
 print(emp_1.class_method(200))
