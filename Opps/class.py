@@ -9,6 +9,7 @@ class Employee:
         Employee.num_of_employee +=1
     def amount_rise(self):
         self.pay= int(self.pay * self.raise_amount)
+
     def full_name(self):
         return '{} {}'.format(self.first,self.last)
     def promotions(self):
