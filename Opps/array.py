@@ -20,5 +20,5 @@ def arrayChannllenge(array):
     two=array.index(2) if 2 in array else array -1
     if one==-1 or two==-1:
         return 0
-    return abs(one-two)
+    return abs(one-two) 
 print(arrayChannllenge([1, 0, 0, 0, 2, 2, 2]))
